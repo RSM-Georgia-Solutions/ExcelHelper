@@ -5,6 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>© Luka Pantsulaia Ft Nika Kurdadze</Authors>
     <Company>RSM</Company>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

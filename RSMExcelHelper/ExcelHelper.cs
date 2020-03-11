@@ -11,7 +11,7 @@ namespace RSMExcelHelper
             DateTime now = DateTime.Now;
             Excel.Application xlApp = new Excel.Application { DisplayAlerts = false };
             Excel.Workbook xlWorkBook = xlApp.Workbooks.Open(sourceLocationPath);
-            string fileName = $"{targetLocationPath}-{now.Day}-{now.Month}-{now.Year}.xlsx";
+            string fileName = $"{targetLocationPath}-{now.Day - 1}-{now.Month}-{now.Year}.xlsx";
             if (File.Exists(fileName))
             {
                 Excel.Workbook xlWorkBook2 = xlApp.Workbooks.Open(fileName);
