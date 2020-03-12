@@ -5,7 +5,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>© Luka Pantsulaia Ft Nika Kurdadze</Authors>
     <Company>RSM</Company>
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.5</Version>
+    <AssemblyVersion>1.0.0.33</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
       <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
 
